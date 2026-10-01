@@ -1,0 +1,34 @@
+{
+  "name": "devspend",
+  "version": "0.1.0",
+  "description": "One ledger for your AI dev spend — agent logs, API usage, subscriptions. Tagged by project, ready to bill.",
+  "type": "module",
+  "bin": {
+    "devspend": "bin/devspend.mjs"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "node bin/devspend.mjs report --path test/fixtures && node bin/devspend.mjs projects --path test/fixtures"
+  },
+  "keywords": [
+    "ai",
+    "cost",
+    "spending",
+    "claude",
+    "claude-code",
+    "cursor",
+    "openai",
+    "openrouter",
+    "invoice",
+    "freelance"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ]
+}
