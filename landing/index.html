@@ -36,9 +36,9 @@
       <h1>Your AI dev spend,<br><span>ready to bill.</span></h1>
       <p class="sub">You spend $80–300/month on Claude Code, API keys and AI subscriptions. devspend tells you exactly which project and client it went to — and turns it into invoice line items.</p>
       <div class="cta">
-        <!-- TODO(你,1分钟): 去 https://formspree.io 免费建一个 form,把下面 action 换成
-             你的 endpoint,如 https://formspree.io/f/abcdwxyz ,即可真实收集邮箱 -->
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form name="waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="waitlist">
+          <p style="display:none"><label>Leave empty: <input name="bot-field"></label></p>
           <input type="email" name="email" placeholder="you@work.email" required>
           <button type="submit">Join the waitlist</button>
         </form>
