@@ -2,6 +2,8 @@
 
 > **One ledger for your AI dev spend. Tagged by project. Ready to bill.**
 
+Repo: <https://github.com/zhx842htt/devspend>
+
 If you deliver client work with Claude Code, API keys, and AI subscriptions, you're probably spending **$80–300/month on AI** — and you can't say which client it went to, let alone put it on an invoice.
 
 **devspend** reads your local agent logs and API usage, tags every dollar by project, and turns it into invoice-ready line items. 100% local. Zero cloud. Zero config.

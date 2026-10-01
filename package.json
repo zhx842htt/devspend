@@ -1,8 +1,16 @@
 {
   "name": "devspend",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "One ledger for your AI dev spend — agent logs, API usage, subscriptions. Tagged by project, ready to bill.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhx842htt/devspend.git"
+  },
+  "homepage": "https://github.com/zhx842htt/devspend#readme",
+  "bugs": {
+    "url": "https://github.com/zhx842htt/devspend/issues"
+  },
   "bin": {
     "devspend": "bin/devspend.mjs"
   },
