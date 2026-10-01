@@ -5,3 +5,8 @@ dist/
 .env.*
 .DS_Store
 *.local
+*.tgz
+
+# 内部策略文档,不随公开仓库分发(仅存本机)
+LAUNCH.md
+SPEC.md
